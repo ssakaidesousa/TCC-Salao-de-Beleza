@@ -186,7 +186,7 @@ body {
   border-bottom: 1.5px solid #C4C4C4;
 }
 .input_box input:focus {
-  border-color:#593E2E;
+  border-color:#F5F5F5;
 }
 .input_box i {
   position: absolute;
