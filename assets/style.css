@@ -201,7 +201,7 @@ body {
 }
 .input_box input:focus ~ i.email,
 .input_box input:focus ~ i.password {
-  color: #8C6F56;
+  color: #593E2E;
 }
 .input_box i.pw_hide {
   right: 0;
@@ -227,7 +227,7 @@ body {
   white-space: nowrap;
 }
 .checkbox input {
-  accent-color: #8C6F56;
+  accent-color: #593E2E;
 }
 .checkbox label {
   font-size: 12px;
