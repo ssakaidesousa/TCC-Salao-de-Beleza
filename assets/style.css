@@ -76,7 +76,7 @@ body {
 }
 .nav_link:hover,
 .nav_link:focus {
-  color: #591426;
+  color: #8C6F56;
 }
 .button {
   padding: 6px 24px;
@@ -87,8 +87,8 @@ body {
 }
 .button:hover,
 .button:focus {
-  color: #591426;
-  border-color: #591426;
+  color: #8C6F56;
+  border-color: #593E2E;
 }
 .button:active {
   transform: scale(0.98);
