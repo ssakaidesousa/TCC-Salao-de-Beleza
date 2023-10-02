@@ -227,7 +227,7 @@ body {
   white-space: nowrap;
 }
 .checkbox input {
-  accent-color: #BF2C53;
+  accent-color: #8C6F56;
 }
 .checkbox label {
   font-size: 12px;
@@ -236,7 +236,7 @@ body {
   color: #000000;
 }
 .form_container .button {
-  background: #BF2C53;
+  background: #8C6F56;
   margin-top: 30px;
   width: 100%;
   padding: 10px 0;
