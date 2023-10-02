@@ -193,7 +193,7 @@ body {
   top: 50%;
   transform: translateY(-50%);
   font-size: 32px;
-  color: #BF2C53;
+  color: #8C6F56;
 }
 .input_box i.email,
 .input_box i.password {
@@ -215,7 +215,7 @@ body {
   justify-content: space-between;
 }
 .form_container a {
-  color: #BF2C53;
+  color: #8C6F56;
   font-size: 12px;
 }
 .form_container a:hover {
