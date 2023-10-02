@@ -87,7 +87,7 @@ body {
 }
 .button:hover,
 .button:focus {
-  color: #F5F5F5;
+  color: #593E2E;
   border-color: #593E2E;
 }
 .button:active {
@@ -186,14 +186,14 @@ body {
   border-bottom: 1.5px solid #C4C4C4;
 }
 .input_box input:focus {
-  border-color:#F5F5F5;
+  border-color:#593E2E;
 }
 .input_box i {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   font-size: 32px;
-  color:#F5F5F5;
+  color:#593E2E;
 }
 .input_box i.email,
 .input_box i.password {
