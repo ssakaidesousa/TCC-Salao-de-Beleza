@@ -87,7 +87,7 @@ body {
 }
 .button:hover,
 .button:focus {
-  color: #593E2E;
+  color: #F5F5F5;
   border-color: #593E2E;
 }
 .button:active {
