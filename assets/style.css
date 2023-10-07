@@ -181,9 +181,9 @@ body {
   border: none;
   outline: none;
   padding: 0 30px;
-  color: #C4C4C4;
+  color: #000000;
   transition: all 0.2s ease;
-  border-bottom: 1.5px solid #C4C4C4;
+  border-bottom: 1.5px solid #000000;
 }
 .input_box input:focus {
   border-color:#593E2E;
@@ -215,7 +215,7 @@ body {
   justify-content: space-between;
 }
 .form_container a {
-  color:#000000;
+  color:#8C6F56;
   font-size: 12px;
 }
 .form_container a:hover {
@@ -301,10 +301,6 @@ body {
 }
 
 /*MAIN*/
-main{
-  align-items: center;
-}
-
 .card_container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
