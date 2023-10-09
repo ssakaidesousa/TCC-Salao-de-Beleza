@@ -25,6 +25,9 @@ body {
   position: relative;
   background-color: whitesmoke;
   padding-top: 10px;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
 }
 /*HEADER*/
 .header{
@@ -301,6 +304,13 @@ body {
 }
 
 /*MAIN*/
+main{
+  display: flex;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+}
 .card_container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -314,18 +324,6 @@ body {
 }
 
 /*CARD*/
-.card {
-  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
-  border: 1px solid #c4c4c4;
-  padding: 30px;
-  text-align: center;
-}
-
-.card:hover {
-  box-shadow: 0 10x 20px 0 rgba(0, 0, 0, 0.2);
-}
-
 @media (max-width: 750px) {
   .card_container {
     grid-template-columns: repeat(1, 1fr); /* 1 cartão por linha em telas menores */
@@ -339,6 +337,7 @@ body {
 .wrapper {
   max-width: 1100px;
   width: 100%;
+  height: auto;
   position: relative;
 }
 .wrapper i {
@@ -360,19 +359,19 @@ body {
   transform: translateY(-50%) scale(0.85);
 }
 .wrapper i:first-child{
-  left: -17px;
+  left: -22px;
 }
 .wrapper i:last-child{
-  right: -24px;
+  right: -22px;
 }
 .wrapper .carousel{
   display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: calc((100% / 4) - 12px);
+  grid-auto-columns: calc((100% / 5) - 12px);
   overflow-x: auto;
   scroll-snap-type: x mandatory;
-  gap: 16px;
-  border-radius: 10px;
+  gap: 14px;
+  border-radius: 8px;
   scroll-behavior: smooth;
   scrollbar-width: none;
 }
@@ -397,7 +396,7 @@ body {
 }
 .carousel .card {
   scroll-snap-align: start;
-  height: 400px;
+  height: 342px;
   list-style: none;
   background: #fff;
   cursor: pointer;
@@ -406,10 +405,10 @@ body {
   border-radius: 8px;
 }
 .carousel .card .img {
-  background: #8B53FF;
-  height: 140px;
-  width: 140px;
-  border-radius: 40%;
+  background: #8C6F56;
+  height: 148px;
+  width: 148px;
+  border-radius: 1000%;
 }
 .card .img img {
   width: 140px;
@@ -424,20 +423,20 @@ body {
   margin: 30px 0 5px;
 }
 .carousel .card span {
-  color: #000000;
+  color: #6A6D78;
   font-size: 1.31rem;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 900px) {
   .wrapper .carousel {
-    grid-auto-columns: calc((100% / 2) - 10px);
+    grid-auto-columns: calc((100% / 2) - 9px);
   }
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
   .wrapper .carousel {
     grid-auto-columns: 100%;
   }
 }
-/*CARD*/
+
 
 
 
